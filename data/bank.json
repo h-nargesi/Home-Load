@@ -1,0 +1,84 @@
+{
+    "data": {
+        "bankData": [
+            {
+                "bankOrganizationUnitId": 29491,
+                "title": "خاورمیانه"
+            },
+            {
+                "bankOrganizationUnitId": 1750,
+                "title": "آینده"
+            },
+            {
+                "bankOrganizationUnitId": 1756,
+                "title": "پارسیان"
+            },
+            {
+                "bankOrganizationUnitId": 1747,
+                "title": "ملی ایران"
+            },
+            {
+                "bankOrganizationUnitId": 1757,
+                "title": "سامان"
+            },
+            {
+                "bankOrganizationUnitId": 1749,
+                "title": "صادرات ایران"
+            },
+            {
+                "bankOrganizationUnitId": 1759,
+                "title": "تجارت"
+            },
+            {
+                "bankOrganizationUnitId": 29498,
+                "title": "رفاه کارگران"
+            },
+            {
+                "bankOrganizationUnitId": 29499,
+                "title": "پست ایران"
+            },
+            {
+                "bankOrganizationUnitId": 1753,
+                "title": "کارآفرین"
+            },
+            {
+                "bankOrganizationUnitId": 1760,
+                "title": "ملت"
+            },
+            {
+                "bankOrganizationUnitId": 29492,
+                "title": "ایران زمین"
+            },
+            {
+                "bankOrganizationUnitId": 1751,
+                "title": "گردشگری"
+            },
+            {
+                "bankOrganizationUnitId": 1755,
+                "title": "پاسارگاد"
+            },
+            {
+                "bankOrganizationUnitId": 29495,
+                "title": "سینا"
+            },
+            {
+                "bankOrganizationUnitId": 1748,
+                "title": "شهر"
+            },
+            {
+                "bankOrganizationUnitId": 1752,
+                "title": "سپه"
+            },
+            {
+                "bankOrganizationUnitId": 1754,
+                "title": "اقتصادنوین"
+            },
+            {
+                "bankOrganizationUnitId": 1378,
+                "title": "مسکن"
+            }
+        ],
+        "maxLoanAmount": 2000000000
+    },
+    "message": null
+}
