@@ -14,7 +14,9 @@ try
         .WriteTo.File("events-.log", LogEventLevel.Debug, rollingInterval: RollingInterval.Day)
         .CreateLogger();
 
-    using var service = new HttpRequests();
+    var config = LoadConfig(configPath);
+
+    using var service = new HttpRequests(config);
 
     while (true)
     {
@@ -40,6 +42,16 @@ try
 catch (Exception ex)
 {
     Log.Logger.Error(ex, "Error");
+}
+
+static Config LoadConfig(string configPath)
+{
+    var config = JsonHandler.LoadFromFile<Config>(configPath);
+
+    Log.Logger.Information("LOAD-CONFIG\tc={0}\tp={1}", config.CarName, config.ProductName);
+    Log.Logger.Debug("LOAD-CONFIG={0}", config.SerializeJson());
+
+    return config;
 }
 
 static async Task<Bank[]> GetBanks(HttpRequests service)
